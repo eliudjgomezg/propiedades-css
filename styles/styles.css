@@ -1,0 +1,163 @@
+section {
+    border: 2px solid green;
+    margin-bottom: 20px;
+}
+
+/* Propiedades para elementos de texto */
+.text-color {
+    color: red
+}
+
+.text-size {
+    /* Acepta como propiedad px, %, em, rem */
+    font-size: 40px;
+}
+
+.text-family {
+    /* Acepta como propiedad las fue tes istaladas en tu navegador */
+    font-family: roboto;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* Propiedades para renderizado y comportamiento de elementos */
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-inline {
+    display: inline;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+
+/*Propiedades para espacios en elementos*/
+.espacios {
+    margin: 30px; 
+    padding:20px;
+    background-color: red;
+}
+
+.espacios-separados {
+    margin: 30px 10px 5px 15px; /*valor: mt mr mb ml*/
+    padding: 20px 15px 30px 13px;/*valor: pt pr pb pl*/
+    background-color: blue;
+}
+
+.espacios-compartidos {
+    margin: 30px 20px ; /*valor: mt/mb mr/ml*/
+    padding: 10px 8px; /*valor: pt/pb pr/pl*/
+    background-color: blue;
+}
+
+.centrado-horizontal {
+    margin: auto
+}
+
+/*Propiedades para posicion de elementos*/
+.p-relative {
+    position: relative;
+}
+.p-absolute {
+    position: absolute;
+}
+.p-fixed {
+    position: fixed;
+}
+
+.caja1 {
+    left: 0;
+}
+
+.caja2 {
+    right: 0;
+}
+
+.caja3 {
+    left: 0;
+    bottom: 0;
+}
+
+.caja4 {
+    right: 0;
+    bottom: 0;
+}
+
+.p-sticky {
+    position: sticky;
+    top: 0px;
+}
+
+.float-right {
+    float: right
+}
+
+/* Propiedades de tamaños */
+.absolute-size {
+    width: 100px ; /*Unidades de ancho: px, % en, rem, etc*/
+    height: 100px ; /*Unidades de altura: px, % en, rem, etc*/
+}
+
+.relative-size {
+    min-width: 100px ; /*Unidades de ancho: px, % en, rem, etc*/
+    min-height: 100px ; /*Unidades de altura: px, % en, rem, etc*/
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.view-port-sizes{
+    height: 50vh;
+}
+
+/* Overflow */
+
+.overflow-hiden {
+    overflow: auto;
+}
+
+/*Estilos varios*/
+.dimensiones {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+.height-200 {
+    height: 200px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-500px {
+    width: 300px;
+}
+
+.bg-green {
+    background-color: green;
+}
+.bg-red {
+    background-color: red;
+}
+.bg-black {
+    background-color: black;
+}
+.bg-purple {
+    background-color: purple;
+}
+.transparente {
+    opacity: 0.5   ;
+}
+
+
+
