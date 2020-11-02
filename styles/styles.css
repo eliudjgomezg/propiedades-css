@@ -121,7 +121,21 @@ section {
 /* Overflow */
 
 .overflow-hiden {
-    overflow: auto;
+    overflow: hidden;
+}
+
+/* Flex-box Flex container*/
+.d-flex {
+    display: flex;
+    flex-direction: row ; /*Valores row, row-reverse, column, column-reverse*/
+    flex-wrap: wrap; /*Valores wrap*/
+    justify-content: space-between; /*Trabaja en el eje X Valores flex-start, center, flex-end, space-between, space-around, space-evenly */
+    /*align-items: center; Trabaja en el eje y Valores flex-start, center, flex-end */
+}
+
+/* Flex-box Flex item*/
+.order-3{
+    order: 3; /*Le va un orden a los elementos del flex container*/
 }
 
 /*Estilos varios*/
@@ -152,12 +166,30 @@ section {
 .bg-black {
     background-color: black;
 }
+.bg-blue {
+    background-color: blue;
+}
 .bg-purple {
     background-color: purple;
 }
 .transparente {
     opacity: 0.5   ;
 }
+
+.div {
+    padding-top: 500px;
+    transition: padding-top 2s;
+}
+
+.div:hover {
+    padding-top: 0px;
+    transition: padding-top 2s;
+}
+
+
+
+
+
 
 
 
